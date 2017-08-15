@@ -106,7 +106,8 @@ def add
   if restaurant.save
     puts "\nRestaurant Added\n\n"
   else
-    puts "\nSave Error: Restaurant not added\n\n"
+    puts "\nSave Error: Restaurant not added\n"
+    puts "\nPlease make sure 'restaurants.txt' exists.\n"
   end
 end
 
